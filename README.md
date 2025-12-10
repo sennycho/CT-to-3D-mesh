@@ -48,12 +48,13 @@ medical_mesh_project/
 │ └── mesh_decimated.stl
 │
 └── src/
-├── main.py
-├── loader.py
-├── preprocess.py
-├── mesh_gen.py
-└── visualize.py
+  ├── main.py
+  ├── loader.py
+  ├── preprocess.py
+  ├── mesh_gen.py
+  └── visualize.py
 ```
+
 
 
 ---
