@@ -35,23 +35,25 @@ Kaggle Dataset: https://www.kaggle.com/datasets/kmader/finding-lungs-in-ct-data
 ---
 
 ## 📂 Project Structure
+```
 medical_mesh_project/
 │
 ├── data/
-│  ├── IMG_0059.nii # CT volume
-│  └── MASK_0059.nii # Segmentation mask
+│ ├── IMG_0059.nii
+│ └── MASK_0059.nii
 │
 ├── output/
-│  ├── mesh_raw.stl
-│  ├── mesh_smooth.stl
-│  └── mesh_decimated.stl
+│ ├── mesh_raw.stl
+│ ├── mesh_smooth.stl
+│ └── mesh_decimated.stl
 │
 └── src/
-   ├── main.py
-   ├── loader.py
-   ├── preprocess.py
-   ├── mesh_gen.py
-   └── visualize.py
+├── main.py
+├── loader.py
+├── preprocess.py
+├── mesh_gen.py
+└── visualize.py
+```
 
 
 ---
